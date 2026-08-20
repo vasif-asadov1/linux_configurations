@@ -1,0 +1,121 @@
+[window]
+decorations_theme_variant = "Dark"
+padding = { x = 12, y = 12 }
+opacity = 0.95
+blur = true
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[cursor]
+style = "Beam"
+vi_mode_style = "Block"
+blink_interval = 500
+blink_timeout = 5
+
+# ─── Evans Dark Theme ─────────────────────────────────────────────────────────
+
+[colors.primary]
+background = '#1c262c'   # editor.background
+foreground = '#dbdbdb'   # editor.foreground
+dim_foreground = '#cccccc'
+bright_foreground = '#ffffff'
+
+[colors.cursor]
+text   = '#1c262c'
+cursor = '#aeafad'       # editorCursor.foreground
+
+[colors.vi_mode_cursor]
+text   = '#1c262c'
+cursor = '#00c6dc'       # focusBorder / teal accent
+
+[colors.search.matches]
+foreground = '#1c262c'
+background = '#6f91a0'   # comment color (muted blue-gray)
+
+[colors.search.focused_match]
+foreground = '#1c262c'
+background = '#1addb3'   # string color (bright teal)
+
+[colors.footer_bar]
+foreground = '#1c262c'
+background = '#6f91a0'
+
+[colors.hints.start]
+foreground = '#1c262c'
+background = '#efd25c'   # constants / yellow
+
+[colors.hints.end]
+foreground = '#1c262c'
+background = '#6f91a0'
+
+[colors.selection]
+text       = '#1c262c'
+background = '#264f78'   # editor.selectionBackground
+
+# ─── ANSI Colors (from terminal.ansi* in Evans Dark) ─────────────────────────
+
+[colors.normal]
+black   = '#000000'   # terminal.ansiBlack
+red     = '#cd3131'   # terminal.ansiRed
+green   = '#0dbc79'   # terminal.ansiGreen
+yellow  = '#efd25c'   # terminal.ansiYellow
+blue    = '#2472c8'   # terminal.ansiBlue
+magenta = '#bc3fbc'   # terminal.ansiMagenta
+cyan    = '#11a8cd'   # terminal.ansiCyan
+white   = '#e5e5e5'   # terminal.ansiWhite
+
+[colors.bright]
+black   = '#666666'   # terminal.ansiBrightBlack
+red     = '#f14c4c'   # terminal.ansiBrightRed
+green   = '#23d18b'   # terminal.ansiBrightGreen
+yellow  = '#efd25c'   # terminal.ansiBrightYellow
+blue    = '#3b8eea'   # terminal.ansiBrightBlue
+magenta = '#d670d6'   # terminal.ansiBrightMagenta
+cyan    = '#29b8db'   # terminal.ansiBrightCyan
+white   = '#e5e5e5'   # terminal.ansiBrightWhite
+
+[colors.dim]
+black   = '#000000'
+red     = '#cd3131'
+green   = '#0dbc79'
+yellow  = '#efd25c'
+blue    = '#2472c8'
+magenta = '#bc3fbc'
+cyan    = '#11a8cd'
+white   = '#cccccc'
+
+# ─── Keybindings ──────────────────────────────────────────────────────────────
+
+[[keyboard.bindings]]
+chars = "\u0003"
+key   = "C"
+mods  = "Control"
+mode  = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Copy"
+key    = "C"
+mods   = "Control"
+mode   = "~Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Paste"
+key    = "V"
+mods   = "Control"
