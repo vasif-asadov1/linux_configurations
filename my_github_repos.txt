@@ -1,0 +1,18 @@
+1. adventureworks_sales_analysis: git@github.com:vasif-asadov1/adventureworks_b2c_sales_analysis.git
+2. sales_cloud_analysis: git@github.com:vasif-asadov1/sales-cloud-project.git
+3. pysqdb_package: git@github.com:vasif-asadov1/pysqdb.git
+4. olist_ecommerce_analysis: git@github.com:vasif-asadov1/olist-e-commerce-analysis.git
+5. home_credit_risk_prediction: git@github.com:vasif-asadov1/home_credit_risk_analysis.git
+6. r_credit_default_prediction:git@github.com:vasif-asadov1/german-credit-classification-r-python.git
+7. customer_churn_prediction: git@github.com:vasif-asadov1/customer-churn-prediction-pipeline.git
+8. r_logistic_regression: git@github.com:vasif-asadov1/logistic_regression_with_r.git
+9. r_linear_regression_mpg: git@github.com:vasif-asadov1/linear-regression-with-r-mpg.git
+10. r_linear_regression_crimes: git@github.com:vasif-asadov1/linear-regression-with-r-crimes.git
+11. netflix_customer_churn_prediction: git@github.com:vasif-asadov1/netflix-customer-churn-prediction-r-python.git
+12. language_learner: git@github.com:vasif-asadov1/language-learner.git
+13. ayah_finder: git@github.com:vasif-asadov1/ayah_finder.git
+14. meal_oku: git@github.com:vasif-asadov1/meal-oku.git
+15. youtube_downloader: git@github.com:vasif-asadov1/youtube-downloader.git
+16. arabic_word_roots: git@github.com:vasif-asadov1/arabic_word_roots.git
+17. report_generator: git@github.com:vasif-asadov1/report-generator.git
+18. miftah_arabic: git@github.com:vasif-asadov1/miftah-arabic.git
