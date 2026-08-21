@@ -1,0 +1,10 @@
+1. movie_name: movie_link
+2. movie_name2: movie_link2
+
+make sure that the packages are installed: 
+
+- aria2
+- yt-dlp
+- ffmpeg
+- curl
+- wget

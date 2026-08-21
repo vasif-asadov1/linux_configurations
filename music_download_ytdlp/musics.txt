@@ -1,0 +1,8 @@
+1. music_name: youtube_link
+2. music_name2: youtube_link2
+3. playlist_name: youtube_playlist_link
+
+...
+
+just write name and link for both videos and playlists in YouTube. 
+
