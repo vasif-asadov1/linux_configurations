@@ -2,7 +2,7 @@
 
 From the following link download the iso file: 
 
-[TEXLIVE2026.iso download link](https://mirrors.ctan.org/systems/texlive/Images/texlive2026.iso) 
+[TEXLIVE2026.iso download link](https://mirrors.ctan.org/systems/texlive/Images/) 
 
 Then, create specified directory and mount iso file using the following command: 
 

@@ -96,7 +96,7 @@ aria2c -x 16 -s 16 https://example.com/massive_dataset.csv
 - `-s 16`: splits the file into 16 segments.
 
 
-Most stable, resiliend and fastest method: 
+Most stable, resilient and fastest method: 
 
 ```bash
 aria2c -c -x 16 -s 16 --max-tries=0 --retry-wait=5 https://example.com/massive_dataset.csv
