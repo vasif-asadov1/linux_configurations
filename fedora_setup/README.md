@@ -162,6 +162,39 @@ git config --global user.email "your_email@example.com"
 ```
 
 
+# Flatpak 
+
+**Flatpak** is a software utility for software deployment, application virtualization, and package management. It allows you to install and run applications in a sandboxed environment, which can help improve security and compatibility across different Linux distributions.
+
+**Install Flatpak and KDE backends:**
+
+```bash
+sudo dnf install flatpak plasma-discover-flatpak
+```
+
+If you are using GNOME, you can install the GNOME backends instead:         
+
+```bash
+sudo dnf install flatpak gnome-software-plugin-flatpak
+```
+
+**Add the Flathub repository to your system:**
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+**Update Fish shell to support Flatpak:**
+
+```bash
+fish_add_path -a /var/lib/flatpak/exports/bin ~/.local/share/flatpak/exports/bin
+```
+
+Restart your system and done.
+
+
+
+
 
 
 
